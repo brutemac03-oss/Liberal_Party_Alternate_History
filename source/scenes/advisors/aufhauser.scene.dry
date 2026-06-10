@@ -1,28 +1,28 @@
-title: Siegfried Aufhäuser
+title: Ramsay Muir
 is-pinned-card: true
-tags: advisor, reformist
+tags: advisor, Yellow book Liberal
 card-image: img/portraits/AufhäuserSiegfried.jpg
 view-if: aufhauser_advisor = 1
 new-page: true 
 
-= Siegfried Aufhäuser
+= Ramsay Muir
 
-Aufhäuser is a leader of the AfA-Bund, the federation of socialist white-collar trade unions.
+Muir is a historian and professor at Liverpool along with a key leading figure in the Liberal Summer School movement.
 
-- @white_collar
-- @union_unity
+- @Electoral_Reform
+- @Industrial_Action
 - @crisis
 - @moderate_economic_plan
 - @root: Return to main
 
-@white_collar
-title: Organizing white-collar workers
-subtitle: Improve our standing among the new middle class.
+@Electoral_Reform
+title: Introducing a system of porportional represenation in the UK
+subtitle: Introducing electoral reform to better represent the popular vote in future British elections.
 choose-if: advisor_action_timer <= 0
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?] 
 on-arrival: advisor_action_timer = 6; new_middle_spd += 6*(1-dissent);
 
-We have increased our organizing among white-collar workers.
+We have adopted the policy of porportional represenation.
 
 @union_unity
 title: Union-party coordination
