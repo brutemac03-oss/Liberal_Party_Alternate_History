@@ -1,7 +1,7 @@
 title: Ramsay Muir
 is-pinned-card: true
 tags: advisor, Yellow book Liberal
-card-image: img/portraits/AufhäuserSiegfried.jpg
+card-image: https://github.com/brutemac03-oss/Liberal_Party_Alternate_History/blob/main/ramsay%20muir%20-%20Google%20Search.jpeg.png
 view-if: aufhauser_advisor = 1
 new-page: true 
 
